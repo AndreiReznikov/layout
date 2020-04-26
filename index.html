@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Дипломный проект</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css" media="only screen and (max-width:1600px)">
+	<link rel="preload" href="img/cat.png" as="image">
+	<link rel="preload" href="img/ellipse.png" as="image">
+	<link rel="preload" href="fonts/Roboto-Regular.woff" as="font" type="font/woff">
+	<link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2">
+	<link rel="preload" href="fonts/Roboto-Bold.woff" as="font" type="font/woff">
+	<link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2">
+	<link rel="preload" href="fonts/Roboto-Black.woff" as="font" type="font/woff">
+	<link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<div class="popup-container">
+		<div class="popup">
+			<form>
+				<input type="hidden" name="project_name" value="Текст">
+				<input type="hidden" name="admin_email" value="andrezniksk@yandex.ru">
+				<input type="hidden" name="form_subject" value="Тема">
+				<h4>Введите данные для обратной связи</h4>
+				<input type="text" name="text" placeholder="Имя">
+				<input type="tel" name="tel" placeholder="Телефон">
+				<input class="call-button" type="submit" name="button">
+			</form>
+		</div>
+	</div>
+	<div class="popup-container-mail">
+		<div class="popup">
+			<form>
+				<input type="hidden" name="project_name" value="Текст">
+				<input type="hidden" name="admin_email" value="andrezniksk@yandex.ru">
+				<input type="hidden" name="form_subject" value="Тема">
+				<h4>Введите данные для обратной связи</h4>
+				<input type="text" name="text" placeholder="Имя">
+				<input type="tel" name="tel" placeholder="Телефон">
+				<input type="email" name="email" placeholder="Электронный адрес">
+				<input class="call-button" type="submit" name="button">
+			</form>
+		</div>
+	</div>
+	<div class="background background_first">
+		<div class="container">
+			<header class="header">
+				<nav class="menu">
+					<ul>
+						<li><a href="#">Услуги</a></li>
+						<li><a class="menu__portfolio" href="#">Портфолио</a></li>
+						<li><a href="#">Стоимость</a></li>
+					</ul>
+				</nav>
+				<div class="mobile-div"></div>
+				<span class="number-mobile">+7 (499) 995-55-77</span>
+				<div class="call-order">
+					<span class="call-order__number">+7 (499) 995-55-77</span>
+					<a href="#"><img class="call-order__phone-icon" src="img/phone.png" alt="Заказать звонок"></a>
+					<input class="call-button call-button_top" type="submit" name="call" value="Заказать звонок">
+				</div>
+			</header>
+			<div class="title">
+				<h1 class="title__my-name">Андрей Резников</h1>
+				<span class="title__my-profession">Frontend&#8209;разработчик и&nbsp;веб&#8209;верстальщик</span>
+				<input class="button button_first" type="submit" name="price" value="Узнать больше">
+			</div>
+		</div>
+		<a class="burger" href="#">
+			<img class="burger__icon" src="img/burger.png" alt="Меню">
+		</a>
+		<nav class="menu-mobile"> 
+			<ul>
+				<li><a href="#">Услуги</a></li>
+				<li><a class="menu-mobile__portfolio" href="#">Портфолио</a></li>
+				<li><a href="#">Стоимость</a></li>
+			</ul>
+		</nav>
+		<div class="tag tag_first tag_animation">{ }</div>
+		<div class="tag tag_second tag_animation">&lt;div&gt;</div>
+		<div class="tag tag_third tag_animation">#</div>
+		<div class="tag tag_fourth tag_animation">&lt;div&gt;</div>
+		<div class="tag tag_fifth tag_animation">&lt;/&gt;</div>
+		<div class="tag tag_sixth tag_animation">&lt;/&gt;</div>
+		<img class="shadow" src="img/shadow.png" alt="Тень">
+		<img class="man" src="img/cat.png" alt="Человек">
+	</div>
+	<div class="background background_second">
+		<div class="container">
+			<div class="my-skills my-skills_padding">
+				<div class="title-mobile">
+					<h1 class="title-mobile__my-name">Андрей Резников</h1>
+					<span class="title-mobile__my-profession">Frontend&#8209;разработчик и&nbsp;веб&#8209;верстальщик</span>
+					<input class="button-mobile" type="submit" name="price" value="Узнать больше">
+				</div>
+				<h2>Что я делаю</h2>
+				<div class="skills skills_margin skills_first">
+					<img src="img/tools.png" alt="Инструменты">
+					<p>Вёрстка лендинг–страниц и&nbsp;сайтов любой сложности</p>
+				</div>
+				<div class="skills skills_margin">
+					<img src="img/responsive.png" alt="Адаптив">
+					<p>Адаптивная вёрстка под все браузеры и&nbsp;устройства</p>
+				</div>
+				<div class="skills skills_margin">
+					<img src="img/programming.png" alt="Программирование">
+					<p>Frontend–разработка и&nbsp;программирование</p>
+				</div>
+				<div class="skills skills_margin">
+					<img src="img/coding.png" alt="Кодинг">
+					<p>Исправление и&nbsp;доработка существующей вёрстки</p>
+				</div>
+				<div class="button-container"><input class="button button_second button-mobile" type="submit" name="price" value="Узнать стоимость"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<section class="my-projects">
+			<h2>Примеры моих работ</h2>
+			<div class="multiple-items">
+ 				<div><a href="#"><figure><img src="img/hypnotherapy.png" alt="Сайт психолога"><figcaption><p>Сайт психолога Веры Антоновой</p></figcaption></figure></a></div>
+        		<div><a href="#"><figure><img src="img/child.png" alt="Сайт магазина детской одежды"><figcaption><p>Сайт магазина детской одежды</p></figcaption></figure></a></div>
+        		<div><a href="#"><figure><img src="img/fisherman.png" alt="Сайт магазина «Рыболов»"><figcaption><p>Сайт магазина «Рыболов»</p></figcaption></figure></a></div>
+        		<div></div>
+			</div>
+			<div class="button-container"><input class="button button_third button-mobile" type="submit" name="price" value="Заказать проект"></div>
+		</section>
+	</div>
+	<div class="background background_gradient">
+		<div class="container">
+			<section class="background__text">
+				<h3>Адаптивная вёрстка под&nbsp;все&nbsp;устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</h3>
+				<p><span>*</span>Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются  индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.</p>
+			</section>
+		</div>
+		<div class="tag tag_first-bottom tag_animation-bottom">{ }</div>
+		<div class="tag tag_second-bottom tag_animation-bottom">&lt;div&gt;</div>
+		<div class="tag tag_third-bottom tag_animation-bottom">#</div>
+		<div class="tag tag_fourth-bottom tag_animation-bottom">&lt;/&gt;</div>
+		<div class="tag tag_fifth-bottom tag_animation-bottom">{ }</div>
+	</div>
+	<footer>
+	<div class="background background_footer-top">
+		<div class="container">
+			<div class="footer-top">
+			<nav class="footer-column footer-column_left">
+				<ul>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">Стоимость</a></li>
+				</ul>
+			</nav>
+			<div class="footer-column footer-column_center">
+				<i class="fa fa-lg icons-color fa-phone" aria-hidden="true"><span class="icons-color__contacts"><a href="tel:+74999957755">+7 (499) 995-77-55</a></span></i>
+				<br><i class="fa fa-lg icons-color mail fa-envelope" aria-hidden="true"><span class="icons-color__contacts"><a href="mailto:dmitry@alekseev.com">dmitry@alekseev.com</a></span></i>
+			</div>
+			<div class="footer-column footer-column_right">
+				<input class="call-button call-button_bottom" type="submit" name="call" value="Заказать звонок">
+				<input class="button-mobile button-mobile_bottom" type="submit" name="call" value="Заказать звонок">
+				<ul class="social social_footer">
+  					<li><a class="social__vk" href="https://vk.com/" target="_blank"></a></li>
+  					<li><a class="social__facebook" href="https://www.facebook.com/" target="_blank"></a></li>
+  					<li><a class="social__twitter" href="https://twitter.com/" target="_blank"></a></li>
+  					<li><a class="social__instagram" href="https://www.instagram.com/" target="_blank"></a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="background background_footer-bottom">
+		<div class="container">
+			<div class="footer-bottom">
+				<p class="footer-bottom__copyright">© Дмитрий Алексеев, 2016 – 2018</p>
+			</div>
+		</div>
+	</div>
+	</footer>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="jquery.inputmask.min.js"></script>
+	<script src="jquery.validate.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
